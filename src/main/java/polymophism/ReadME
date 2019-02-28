@@ -1,0 +1,16 @@
+Polymorphism :
+
+One Task can be perfrom by differt way i.e convance the custormer
+
+There are Two type of Polymorphism
+1. Static PolyMorphism :
+
+Any entity which shows polymorphism during compile time is called static polymorphism.
+Operator Overloading, Constructor Overloading and method overloading are best examples of static polymorphism.
+
+In static polymorphism, object used is determined during compilation itself. So, it is called static binding or Early Binding.
+
+2. Dyanamic PolyMorphism ; Any entity which shows polymorphism during run time is called dynamic polymorphism.
+ Method Overriding is the best example of dynamic polymorphism.
+ It is also called dynamic binding or late binding, because type of the object used will be determined at run time only.
+
