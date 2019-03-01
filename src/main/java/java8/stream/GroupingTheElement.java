@@ -1,6 +1,7 @@
 package java8.stream;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
@@ -14,5 +15,8 @@ public class GroupingTheElement {
         Map<String, Long> map = names.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 
         System.out.println(map);
+
+//        HashMap<String, String> map = new HashMap<>();
+
     }
 }

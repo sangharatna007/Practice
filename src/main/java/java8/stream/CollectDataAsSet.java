@@ -33,7 +33,7 @@ public class CollectDataAsSet {
 
         for (Test test: set) {
 
-            System.out.println(test.id + " " + test.dept + " "+ test.name);
+            System.out.println(test.id + " " + test.dept + " "+ test.name   );
         }
     }
 
